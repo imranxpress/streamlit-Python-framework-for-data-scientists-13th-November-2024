@@ -10,7 +10,7 @@ Streamlit is an open-source Python framework for data scientists and AI/ML engin
 - [Streamlit Shell Script Runner](https://www.linkedin.com/pulse/streamlit-shell-script-runner-harish-panduranga-rao/)
 - [Streamlit-Google-Auth](https://pypi.org/project/streamlit-google-auth/)
 - [StreamlitGAuth](https://pypi.org/project/StreamlitGAuth/2.0.9/)
-- []()
+- [streamlit-navigation-menu](https://github.com/Sven-Bo/streamlit-navigation-menu.git)
 - []()
 - []()
 - []()
