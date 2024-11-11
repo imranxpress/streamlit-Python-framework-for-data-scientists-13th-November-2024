@@ -9,7 +9,16 @@ In this video, I'm going to show you how to embed a navigation menu into your st
  - streamlit-option-menu repo: https://github.com/victoryhb/streamlit-option-menu
  - Bootstrap Icons: https://icons.getbootstrap.com/
 
-
+## Try this Codes
+```
+git clone https://github.com/SumonPaul18/streamlit.git
+cd streamlit/st-nav-menu
+docker compose up -d
+```
+## Output this Codes 
+```
+docker ps 
+```
 
 ## 🤓 Check Out My Excel Add-ins
 I've developed some handy Excel add-ins that you might find useful:
