@@ -1,0 +1,23 @@
+import streamlit as st
+
+# নেভিগেশন বার তৈরি করা
+def main():
+    st.sidebar.title("নেভিগেশন বার")
+    menu = ["হোম", "ড্যাশবোর্ড", "প্রোফাইল", "সেটিংস"]
+    choice = st.sidebar.selectbox("মেনু নির্বাচন করুন", menu)
+
+    if choice == "হোম":
+        st.title("হোম পেজ")
+        st.write("এটি হোম পেজের কন্টেন্ট।")
+    elif choice == "ড্যাশবোর্ড":
+        st.title("ড্যাশবোর্ড")
+        st.write("এটি ড্যাশবোর্ডের কন্টেন্ট।")
+    elif choice == "প্রোফাইল":
+        st.title("প্রোফাইল")
+        st.write("এটি প্রোফাইল পেজের কন্টেন্ট।")
+    elif choice == "সেটিংস":
+        st.title("সেটিংস")
+        st.write("এটি সেটিংস পেজের কন্টেন্ট।")
+
+if __name__ == '__main__':
+    main()
