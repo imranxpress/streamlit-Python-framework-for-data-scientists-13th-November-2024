@@ -12,5 +12,8 @@ Streamlit is an open-source Python framework for data scientists and AI/ML engin
 - [StreamlitGAuth](https://pypi.org/project/StreamlitGAuth/2.0.9/)
 - [streamlit-navigation-menu](https://github.com/Sven-Bo/streamlit-navigation-menu.git)
 - [Layout design in Streamlit](https://www.youtube.com/watch?v=0ZL-rK-IZIU)
-- []()
-- []()
+- [Session States In Streamlit |](https://www.youtube.com/watch?v=gHeBtPLhBJE&list=PLa6CNrvKM5QU7AjAS90zCMIwi9RTFNIIW&index=42)
+- [Cache In Streamlit ](https://www.youtube.com/watch?v=kOgSasvvxOg&list=PLa6CNrvKM5QU7AjAS90zCMIwi9RTFNIIW&index=43)
+
+- https://www.youtube.com/watch?v=G4c-LmdJTYQ
+- https://www.youtube.com/watch?v=9n4Ch2Dgex0
