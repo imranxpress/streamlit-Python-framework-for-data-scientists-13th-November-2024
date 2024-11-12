@@ -1,0 +1,43 @@
+version: "3"
+services:
+  streamlit-db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: streamlit
+      MYSQL_DATABASE: streamlit
+      MYSQL_USER: streamlit
+      MYSQL_PASSWORD: streamlit
+    volumes:
+      - $PWD/mysql/:/var/lib/mysql
+    networks:
+      - mysql-st-crud
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    depends_on:
+      - streamlit-db
+    restart: always
+    environment:
+      PMA_HOST: streamlit-db
+      PMA_USER: streamlit
+      PMA_PASSWORD: streamlit
+    ports:
+      - "8013:80"
+    networks:
+      - mysql-st-crud
+  version: '3'
+services:
+  st-mysql:
+    build: .
+    restart: always
+    container_name: st-mysql
+    volumes:
+      - $PWD:/app
+    ports:
+      - "5001:8501"
+    networks:
+      - mysql-st-crud
+
+networks:
+  mysql-st-crud
