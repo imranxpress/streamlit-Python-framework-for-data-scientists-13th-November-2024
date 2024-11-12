@@ -8,3 +8,9 @@ services:
       - $PWD:/app
     ports:
       - "5000:8501"
+    networks:
+      - streamlit_default
+
+networks:
+  streamlit_default:
+    external: true
