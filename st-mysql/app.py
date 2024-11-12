@@ -5,11 +5,12 @@ import pandas as pd
 # MySQL connection
 def get_connection():
     return mysql.connector.connect(
-        host="172.22.0.2",
-        user="sysadmin",
-        password="centos@123",
-        database="wordpress"
+        host="streamlit-db",
+        user="streamlit",
+        password="streamlit",
+        database="streamlit"
     )
+
 
 # Create
 def create_user(name, age, email):
