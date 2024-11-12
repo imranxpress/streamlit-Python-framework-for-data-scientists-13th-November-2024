@@ -3,7 +3,7 @@
 ## Try this Codes on Docker
 ```
 git clone https://github.com/SumonPaul18/streamlit.git
-cd streamlit/st-mysql
+cd streamlit/streamlit-mysql
 docker compose up -d
 ```
 ## Output this Codes 
