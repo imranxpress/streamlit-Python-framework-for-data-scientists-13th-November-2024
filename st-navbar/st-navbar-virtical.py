@@ -40,7 +40,7 @@ def navigation_bar():
     </style>
     <div class="navbar">
         <div class="left-menu">
-            <div class="logo"><img src="logo.png" alt="Company Logo"></div>
+            <div class="logo"><img src="pclogo.png" alt="Company Logo"></div>
             <a href="#product">Product</a>
             <a href="#services">Services</a>
             <a href="#about">About</a>
