@@ -1,6 +1,5 @@
 # Working With MySQL and Streamlit  
 
-#
 ## Try this Codes on Docker
 ```
 git clone https://github.com/SumonPaul18/streamlit.git
